@@ -11,7 +11,7 @@ import br.com.andrey.alves.cursomc.domain.Categoria;
 @Service
 public class CategoriaService {
 
-	@Autowired
+	@Autowired // serve para instanciar a dependencia pelo springo
 	private CategoriaRepository repo;
 	
 	public Categoria buscar(Integer id) {
